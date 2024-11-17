@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "totalResults": 2,
+  "articles": [
+    {
+      "title": "Test Article One",
+      "description": "Description One",
+      "publishedAt": "2021-12-18T12:32:00Z",
+      "url": "www.testone.com"
+    },
+    {
+      "title": "Test Article Two",
+      "description": "Description Two",
+      "publishedAt": "2021-12-19T13:32:00Z",
+      "url": "www.testtwo.com"
+    }
+  ]
+}

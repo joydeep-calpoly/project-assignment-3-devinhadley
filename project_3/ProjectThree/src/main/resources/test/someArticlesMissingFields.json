@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "totalResults": 6,
+  "articles": [
+    {
+      "title": "Partial Article with Missing Date",
+      "description": "This article has a title and description but no publication date.",
+      "url": "www.partialarticle.com",
+      "author": "Alice Johnson",
+      "urlToImage": "www.partialarticle.com/image.jpg",
+      "content": "This article lacks a date, which should make it invalid."
+    },
+    {
+      "description": "No title, no date, no author",
+      "url": "www.missingfields.com",
+      "urlToImage": "www.missingfields.com/image.jpg",
+      "content": "Testing article missing title, publication date, and author."
+    },
+    {
+      "title": "Missing URL and Image",
+      "description": "This article lacks a URL and image URL.",
+      "publishedAt": "2021-12-10T09:15:00Z",
+      "author": "Bob Smith",
+      "content": "The article is missing a critical URL link, which may invalidate it."
+    },
+    {
+      "title": "No Description, URL, or Image",
+      "publishedAt": "2021-12-11T10:25:00Z",
+      "author": "Charlotte Brown",
+      "content": "This article has a title and a date but lacks other core fields like description and URL."
+    },
+    {
+      "title": "Missing Content and URL",
+      "description": "An article with title and description but no content or URL.",
+      "publishedAt": "2021-12-12T14:45:00Z",
+      "author": "Daniel Lee",
+      "urlToImage": "www.articleimage.com/image.jpg"
+    },
+    {
+      "title": "Only Title and URL Present",
+      "url": "www.onlytitleandurl.com"
+    }
+  ]
+}
